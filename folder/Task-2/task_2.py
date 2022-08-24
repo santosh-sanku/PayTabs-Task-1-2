@@ -12,7 +12,7 @@ class main():
     driver = webdriver.Firefox()
 
     """ Method to Login into the given url with given credentials """
-    """ NOTE you can the id and password as per your requirements """
+    """ NOTE you can change the id and password as per your requirements """
 
     def open_webpage(self):
         self.driver.get(self.url)
